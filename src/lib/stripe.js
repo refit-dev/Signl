@@ -6,7 +6,7 @@ let stripeInstance = null;
 export function getStripe() {
   if (!stripeKey) return null;
   if (stripeInstance) return stripeInstance;
-  stripeInstance = new Stripe(stripeKey, { apiVersion: '2025-03-31.basil' });
+  stripeInstance = new Stripe(stripeKey, { apiVersion: '2026-09-30.endive' });
   return stripeInstance;
 }
 
